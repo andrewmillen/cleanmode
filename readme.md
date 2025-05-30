@@ -14,7 +14,7 @@ Use CleanMode to lock the keyboard and dim the screen of your Mac so you can saf
 
 ## System Requirements
 
-- macOS 10.15 or later
+- macOS 11.0 or later
 - Keyboard locking functionality requires accessibility permissions
 
 ## Screenshots
