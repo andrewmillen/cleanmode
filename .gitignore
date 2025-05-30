@@ -1,0 +1,73 @@
+# Exclude ALL source code and project files
+CleanMode/
+CleanModeTests/
+CleanModeUITests/
+CleanMode.xcodeproj/
+
+# Exclude all Swift source files
+*.swift
+
+# Exclude Xcode project and workspace files
+*.xcodeproj/
+*.xcworkspace/
+*.xcconfig
+
+# Exclude build artifacts
+build/
+DerivedData/
+*.xcarchive
+*.app
+*.ipa
+*.dSYM*
+
+# Exclude user-specific files
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcscmblueprint
+*.xccheckout
+
+# Exclude package files
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+.build/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Keep these files (documentation and distribution)
+!README.md
+!LICENSE
+!CHANGELOG.md
+!*.md
+!*.txt
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!screenshots/
+!docs/
+
+# Keep distribution files in releases folder (if you create one)
+!releases/
+!dist/
